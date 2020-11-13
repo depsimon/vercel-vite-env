@@ -12,7 +12,7 @@ export default {
   components: {
     HelloWorld
   },
-  data () {
+  setup () {
     return {
       envTitle: import.meta.env.VITE_APP_TITLE
     }
